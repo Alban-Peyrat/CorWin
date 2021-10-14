@@ -22,7 +22,7 @@ Allumez Corwin, choisissez la feuille `Introduction` et remettez à zéro les do
 
 Allumez Corwin, choisissez la feuille `Introduction` et remettez à zéro les données. Collez votre liste de PPN dans la colonne associée. Sélectionnez en `H2` le contrôle à effectuer (en appuyant sur Alt + flèche du bas, une liste déroulante s'affichera).
 
-Notes : Corwin lance la requête `che PPN ` suivi du contenu de la cellule, veillez à écrire les PPN sous la forme `123456789` (ou `PPN 123456789` qui fonctionne aussi).
+Notes : Corwin lance la requête `che PPN` suivi d'un espace puis du contenu de la cellule, veillez à écrire les PPN sous la forme `123456789` (ou `PPN 123456789` qui fonctionne aussi).
 
 ## Export de WinIBW
 
