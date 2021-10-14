@@ -38,4 +38,4 @@ Une fois le traitement dans WinIBW terminé, vous pouvez lancer l'analyse de Cor
 
 ### CW1 : vérification du format de l'UA103
 
-A
+Vérifie que les dates en 103 $a et 103 $b soient au bon format
