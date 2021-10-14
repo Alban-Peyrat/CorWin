@@ -1,6 +1,6 @@
 # CorWin - Contrôle WinIBW
 
-Corwin est un outil visant à contrôler des données du Sudoc en passant par WinIBW. Corwin impliquant un plus grand nombre d'actions de la part de l'utilisateur que [Constance](https://github.com/Alban-Peyrat/ConStance), il n'est pour l'instant utilisé que pour des contrôles impossible pour Constance.
+Corwin est un outil visant à contrôler des données du Sudoc en passant par WinIBW. Corwin impliquant un plus grand nombre d'actions de la part de l'utilisateur que [Constance](https://github.com/Alban-Peyrat/ConStance), il n'est pour l'instant utilisé que pour des contrôles impossibles pour celle-ci.
 
 **Évitez d'avoir d'autres fichiers Excel ouverts pendant l'analyse (dans le cas où une erreur de programmation pourrait faire intéragir Corwin avec des fichiers non prévus).**
 
@@ -8,7 +8,7 @@ _Version du 14/10/2021._
 
 ## Avant toute utilisation
 
-Avant d'utiliser Corwin, il vous sera nécessaire d'importer [les scripts utilisateurs pour WinIBW de Corwin](https://github.com/Alban-Peyrat/CorWin/blob/main/Scripts_WinIBW_CorWin.vbs) dans votre WinIBW _[(l'aide de l'Abes pour importer des scripts utilisateurs dans WinIBW)](http://documentation.abes.fr/sudoc/manuels/logiciel_winibw/scripts/index.html#CreerScriptUtilisateur)_.
+Avant d'utiliser Corwin, il vous sera nécessaire d'importer [les scripts utilisateurs pour WinIBW de Corwin](https://github.com/Alban-Peyrat/CorWin/blob/main/Scripts_WinIBW_CorWin.vbs) dans votre WinIBW _[(consultez l'aide de l'Abes pour importer des scripts utilisateurs dans WinIBW si nécessaire)](http://documentation.abes.fr/sudoc/manuels/logiciel_winibw/scripts/index.html#CreerScriptUtilisateur)_.
 
 ## Initialisation
 
@@ -26,7 +26,7 @@ Notes : Corwin lance la requête `che PPN` suivi d'un espace puis du contenu de 
 
 ## Export de WinIBW
 
-Pour exporter les données de WinIBW, commencez par vous y connecter, puis copier la liste de PPN depuis Corwin via le bouton dédié dans `Introduction`. __Il est obligatoire de passer par ce bouton car ce dernier génère au début de la liste de PPN l'emplacement de Corwin, sans lequel WinIBW ne saura pas où écrire les données.__ (L'emplacement de Corwin sera remplacé à la fin de l'analyse de Corwin par `Ø`.) Une fois la liste dans le presse-papier, lancez le script WinIBW du traitement que vous souhaitez, soit en l'appelant directement, soit en passant par le lanceur de Corwin.
+Pour exporter les données de WinIBW, commencez par vous y connecter, puis copiez la liste de PPN depuis Corwin via le bouton dédié dans `Introduction`. __Il est obligatoire de passer par ce bouton car ce dernier génère au début de la liste de PPN l'emplacement de Corwin, sans lequel WinIBW ne saura pas où écrire les données.__ (L'emplacement de Corwin sera remplacé à la fin de l'analyse de Corwin par `Ø`.) Une fois la liste dans le presse-papier, lancez le script WinIBW du traitement que vous souhaitez, soit en l'appelant directement, soit en passant par le lanceur de Corwin.
 
 Pendant le traitement, laissez WinIBW travailler. Une fois le traitement terminé, WinIBW affichera un pop-up vous invitant à lancer l'analyse depuis Corwin.
 
