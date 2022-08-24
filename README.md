@@ -8,7 +8,7 @@ _Version du 14/10/2021._
 
 ## Avant toute utilisation
 
-Avant d'utiliser Corwin, il vous sera nécessaire d'importer [les scripts utilisateurs pour WinIBW de Corwin](https://github.com/Alban-Peyrat/CorWin/blob/main/Scripts_WinIBW_CorWin.vbs) dans votre WinIBW _[(consultez l'aide de l'Abes pour importer des scripts utilisateurs dans WinIBW si nécessaire)](http://documentation.abes.fr/sudoc/manuels/logiciel_winibw/scripts/index.html#CreerScriptUtilisateur)_.
+Avant d'utiliser Corwin, il vous sera nécessaire d'importer [les scripts utilisateurs pour WinIBW de Corwin](/../../../WinIBW) dans votre WinIBW _[(consultez l'aide de l'Abes pour importer des scripts utilisateurs dans WinIBW si nécessaire)](http://documentation.abes.fr/sudoc/manuels/logiciel_winibw/scripts/index.html#CreerScriptUtilisateur)_.
 
 ## Initialisation
 
