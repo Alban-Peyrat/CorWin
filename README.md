@@ -1,5 +1,7 @@
 # CorWin - Contrôle WinIBW
 
+[![Abandonned](https://img.shields.io/badge/Maintenance%20Level-Abandoned-orange.svg)](https://gist.github.com/cheerfulstoic/d107229326a01ff0f333a1d3476e068d)
+
 Corwin est un outil visant à contrôler des données du Sudoc en passant par WinIBW. Corwin impliquant un plus grand nombre d'actions de la part de l'utilisateur que [Constance](https://github.com/Alban-Peyrat/ConStance), il n'est pour l'instant utilisé que pour des contrôles impossibles pour celle-ci.
 
 **Évitez d'avoir d'autres fichiers Excel ouverts pendant l'analyse (dans le cas où une erreur de programmation pourrait faire intéragir Corwin avec des fichiers non prévus).**
